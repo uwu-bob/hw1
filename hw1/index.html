@@ -12,9 +12,45 @@
 		.font1 {font-size: 40px;}
 		.font2 {font-size: 30px;}
 		.font2:hover{ background-color:pink; color:lightskyblue;}
+
+		.navbar{
+			overflow: hidden;
+			background-color: #333;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		.navbar a {
+			float: left;
+			display: black;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.navbar a:hover{
+			background: #ddd;
+			color: black;
+		}
+
 	</style>
 </head>
 <body>
+
+	<div class="navbar">
+		<a href="#00">首頁</a>
+		<a href="#01">台中國家歌劇院</a>
+		<a href="#02">台中州廳</a>
+		<a href="#03">審計新村</a>
+	</div>
+
+	<div id="00"></div>
+	<br>
+	<br>
+
 	<div id="jj">
 		<table>
 	</div>
@@ -28,7 +64,7 @@
 
 		<tr>
 			<td colspan="2">
-				<font class="font2">臺中市</font><br><br>
+				<font id="01" class="font2">臺中市</font><br><br>
 
                 臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，東北以中央山脈和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。
 			</td>
@@ -51,7 +87,7 @@
 
 		<tr>
 			<td>
-				<font class="font2">臺中州廳</font><br>
+				<font class="font2" >臺中州廳</font><br>
 				臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦公，由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。<br><br>
 
 				圖：臺中州廳<br><br>
@@ -59,16 +95,16 @@
 				所在位置：台中市西區民權路99號
 			</td>
 			<td>
-				<img class="img_nn" src="02.jpeg">
+				<img id="02" class="img_nn" src="02.jpeg">
 			</td>
 		</tr>
 
 		<tr>
 			<td>
-				<img class="img_nn" src="03.jpeg">
+				<img id="03" class="img_nn" src="03.jpeg">
 			</td>
 			<td>
-				審計新村<br>
+				<font class="font2" >審計新村</font><br>
 				審計新村位於台中市西區，原為臺灣省政府審計處員工宿舍，在凍省之後成了閒置空間荒廢多年，近年配合台中市政府勞工局「摘星青年、築夢台中」創業基地進駐計畫，重新規劃轉型成為創業基地與文創園區。<br><br>
 
 				圖：審計新村<br><br>
@@ -78,8 +114,14 @@
 		</tr>
 
 		<tr>
-			<td colspan="2">
-				大傳三A莊珮妤製作
+			<td colspan="2"  >
+				<iframe src="https://www.google.com/maps/d/embed?mid=1touzJz5vSVpiiQs0L_1Y3NSNgXykVVQ&ehbc=2E312F" width="900" height="800"></iframe>
+			</td>
+		</tr>
+
+		<tr>
+			<td height="50px" bgcolor="darkblue" colspan="2">
+				<font color="white">大傳三A 莊珮妤製作</font>
 			</td>
 		</tr>
 
